@@ -71,27 +71,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="flex items-start space-x-4">
-              <div className="bg-white/10 p-3 rounded-lg">
-                <Phone className="w-6 h-6 text-white" />
-              </div>
-              <div>
-                <h3 className="font-medium mb-1 text-white">Call Us</h3>
-                <p className="text-blue-100">+1 (888) 123-4567</p>
-                <p className="text-blue-100">Mon-Fri 9AM-6PM EST</p>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-4">
-              <div className="bg-white/10 p-3 rounded-lg">
-                <MapPin className="w-6 h-6 text-white" />
-              </div>
-              <div>
-                <h3 className="font-medium mb-1 text-white">Visit Us</h3>
-                <p className="text-blue-100">456 Property Avenue</p>
-                <p className="text-blue-100">San Francisco, CA 94107</p>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
