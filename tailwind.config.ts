@@ -5,6 +5,17 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sora: ['Sora', 'sans-serif'],
+        sans: ['ui-sans-serif', 'sans-serif'],
+      },
+      fontWeight: {
+        light: '300',
+        medium: '500',
+        semibold: '600',
+        bold: '700',
+        extrabold: '800',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
