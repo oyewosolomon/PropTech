@@ -7,9 +7,24 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
           {/* Company Info */}
           <div>
+          <svg width="64px" height="64px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <style>{`
+                .cls-2 { animation: rotate 4s linear infinite; transform-origin: center; }
+                .cls-3 { animation: pulse 2s ease infinite; }
+            
+                @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+              `}</style>
+              
+              <g id="Layer_2">
+                <rect className="cls-1" height="20" width="20"/>
+                <path className="cls-2" d="M17.88,18H6.81a.73.73,0,0,1-.73-.73V6.57A.73.73,0,0,1,6.4,6l5.53-3.83a.74.74,0,0,1,.83,0L18.29,6a.73.73,0,0,1,.32.6V17.29A.73.73,0,0,1,17.88,18Z"/>
+                <circle className="cls-3" cx="5.86" cy="6.89" r="5"/>
+                <path className="cls-4" d="M10.86,6.89A4.93,4.93,0,0,0,9.68,3.7L6.4,6a.73.73,0,0,0-.32.6v5.3A5,5,0,0,0,10.86,6.89Z"/>
+              </g>
+            </svg>
             <h3 className="text-2xl font-bold mb-6">
               <span className="text-blue-600">PropTech</span>
               <span className="text-white">Solutions</span>
